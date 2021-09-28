@@ -6,3 +6,10 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+img {
+  width: 10vw;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+}
