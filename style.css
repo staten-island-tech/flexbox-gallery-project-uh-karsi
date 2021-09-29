@@ -5,11 +5,60 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Chakra Petch", sans-serif;
+}
+.header {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+h1 {
+  font-size: 6.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+.name-tag {
+  font-size: 3rem;
+  color: blueviolet;
+}
+.desc {
+  font-size: 2rem;
+}
+.item-tag {
+  font-weight: 600;
 }
 img {
   width: 10vw;
 }
 .gallery {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh;
+}
+#tom {
+  width: 18.7vw;
+}
+#goth {
+  width: 13vw;
+}
+#dora {
+  width: 11.6vw;
+}
+#rover {
+  width: 8.6vw;
+}
+#blathers {
+  width: 13vw;
+}
+#jeremiah {
+  width: 8.6vw;
+}
+#whalen {
+  width: 14vw;
 }
