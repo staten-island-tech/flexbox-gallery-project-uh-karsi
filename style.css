@@ -8,8 +8,8 @@ body,
   font-family: "Chakra Petch", sans-serif;
 }
 .header {
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 5vh;
+  margin-bottom: 7vh;
   text-align: center;
 }
 h1 {
@@ -33,25 +33,27 @@ h2 {
 .box {
   width: 25vw;
   align-items: center;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-left: 30px;
-  box-shadow: -20px 20px rgb(245, 239, 206);
+  padding: 5vh 3vw;
+  box-shadow: -1.3vw 2vh rgb(245, 239, 206);
   border-width: 30px;
   border-style: solid;
-  border-image: url(ac-bg.png) 25% round;
+  border-image: url(images/ac-bg.png) 25% round;
   border-radius: 15px;
   background-color: rgb(210, 221, 157);
+  position: relative;
 }
 .box::after {
   border-radius: 50%;
 }
 .box-text {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
   border: rgb(255, 238, 144) solid 8px;
-  background-image: url(ac-text-bg.png);
+  background-image: url(images/ac-text-bg.png);
   box-sizing: context-box;
-  width: 100%;
-  padding: 30px;
+  padding: 50px;
   margin-top: 50px;
   border-radius: 80px 80px 0px 0px;
   color: white;
@@ -67,4 +69,8 @@ h2 {
 }
 img {
   height: 35vh;
+  margin-bottom: 8vh;
+}
+#box-jeremiah-img {
+  height: 30vh;
 }
