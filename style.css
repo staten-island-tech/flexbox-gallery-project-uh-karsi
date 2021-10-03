@@ -5,18 +5,33 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Chakra Petch", sans-serif;
+}
+body {
+  font-family: "Balsamiq Sans", cursive;
 }
 .header {
-  margin-top: 5vh;
+  margin-top: 1%;
   margin-bottom: 7vh;
   text-align: center;
+  position: relative;
+  font-family: "finkheavyregular", serif;
+  background-image: url(images/wood-sign.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-h1 {
-  font-size: 6.5rem;
+#header-main {
+  font-size: 17rem;
+  padding: 7vh;
+  color: rgba(230, 185, 68, 255);
+  text-shadow: 0.4rem 0.5rem rgba(77, 61, 35, 255);
 }
-h2 {
-  font-size: 3rem;
+#subheader {
+  margin-top: 0.5%;
+  padding-bottom: 2.4vh;
+  font-family: "Enriqueta", serif;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  text-shadow: -0.2rem -0.2rem rgb(46, 46, 46);
 }
 .gallery {
   display: flex;
@@ -29,17 +44,19 @@ h2 {
   justify-content: space-around;
   margin: 5vh;
   margin-top: 0;
+  flex-wrap: wrap;
 }
 .box {
   width: 25vw;
   align-items: center;
   padding: 5vh 3vw;
-  box-shadow: -1.3vw 2vh rgb(245, 239, 206);
+  box-shadow: 0 1.5vh rgb(255, 242, 128), -1vw 3vh rgb(253, 248, 192),
+    1vw 2.5vh rgb(255, 251, 210);
   border-width: 30px;
   border-style: solid;
   border-image: url(images/ac-bg.png) 25% round;
   border-radius: 15px;
-  background-color: rgb(210, 221, 157);
+  background-color: rgb(211, 218, 178);
   position: relative;
 }
 .box::after {
@@ -50,13 +67,15 @@ h2 {
   bottom: 0%;
   left: 0%;
   right: 0%;
+  top: 65%;
   border: rgb(255, 238, 144) solid 8px;
   background-image: url(images/ac-text-bg.png);
-  box-sizing: context-box;
-  padding: 50px;
-  margin-top: 50px;
+  box-sizing: border-box;
   border-radius: 80px 80px 0px 0px;
   color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 .name-tag {
   font-size: 5rem;
@@ -72,5 +91,26 @@ img {
   margin-bottom: 8vh;
 }
 #box-jeremiah-img {
+  height: 32vh;
+}
+#box-dora-img {
   height: 30vh;
+}
+#box-blathers-img {
+  height: 33vh;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+.logo-img {
+  height: 7vh;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  background-color: rgb(53, 163, 51);
+  border: rgb(53, 163, 51) solid 18px;
+  border-radius: 100px;
+}
+.item-img {
+  top: 20%;
 }
