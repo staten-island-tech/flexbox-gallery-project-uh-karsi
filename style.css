@@ -46,21 +46,25 @@ body {
   margin-top: 0;
   flex-wrap: wrap;
 }
+.rounded-corners-gradient-borders {
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(rgb(211, 218, 178), rgb(211, 218, 178)),
+    radial-gradient(circle at top left, rgb(211, 218, 178), rgb(211, 218, 178));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
 .box {
   width: 25vw;
   align-items: center;
   padding: 5vh 3vw;
-  box-shadow: 0 1.5vh rgb(255, 242, 128), -1vw 3vh rgb(253, 248, 192),
-    1vw 2.5vh rgb(255, 251, 210);
+  box-shadow: 0 1.5vh rgb(255, 242, 128), 1vw 2.5vh rgb(255, 251, 210);
   border-width: 30px;
   border-style: solid;
   border-image: url(images/ac-bg.png) 25% round;
   border-radius: 15px;
   background-color: rgb(211, 218, 178);
   position: relative;
-}
-.box::after {
-  border-radius: 50%;
 }
 .box-text {
   position: absolute;
