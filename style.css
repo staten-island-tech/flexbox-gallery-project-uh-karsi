@@ -13,28 +13,32 @@ body {
   margin-top: 1%;
   margin-bottom: 7vh;
   text-align: center;
-  position: relative;
   font-family: "finkheavyregular", serif;
-  background-image: url(images/wood-sign.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 47vh;
+}
+.header img {
+  position: relative;
   height: 47vh;
 }
 #header-main {
-  font-size: 17rem;
+  font-size: 14.2vh;
   padding: 7vh;
   color: rgba(230, 185, 68, 255);
   text-shadow: 0.4rem 0.5rem rgba(77, 61, 35, 255);
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #subheader {
   margin-top: 0.5%;
   padding-bottom: 2.4vh;
   font-family: "Enriqueta", serif;
-  font-size: 4rem;
+  font-size: 3.5vh;
   color: rgb(255, 255, 255);
   text-shadow: -0.2rem -0.2rem rgb(46, 46, 46);
   position: absolute;
-  bottom: 1%;
+  bottom: 51%;
   left: 50%;
   transform: translateX(-50%);
 }
