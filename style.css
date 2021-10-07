@@ -45,14 +45,7 @@ body {
 .gallery {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
   text-align: center;
-}
-.row {
-  display: flex;
-  justify-content: space-around;
-  margin: 5vh;
-  margin-top: 0;
   flex-wrap: wrap;
 }
 .rounded-corners-gradient-borders {
@@ -74,6 +67,7 @@ body {
   border-radius: 15px;
   background-color: rgb(211, 218, 178);
   position: relative;
+  margin: 5vh auto;
 }
 .box-text {
   position: absolute;
@@ -126,4 +120,28 @@ img {
 }
 .item-img {
   top: 20%;
+}
+@media screen and (max-width: 1100px) {
+  .box {
+    width: 40%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 970px) {
+  .box {
+    width: 60%;
+    height: 50%;
+    margin: 5vh 2vw;
+  }
+  #box-blathers {
+    width: 60%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .box {
+    width: 80%;
+    height: 100%;
+    margin: 5vh 2vw;
+  }
 }
