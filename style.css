@@ -129,16 +129,17 @@ body {
   height: 4vh;
   position: absolute;
   top: 7.7%;
-  right: 7.7%;
+  right: 8%;
 }
 .item-img {
   top: 24%;
+  right: 8%
 }
 @media screen and (max-width: 2400px) {
   #subheader {
     position: absolute;
     color: rgb(255, 255, 255);
-    top: 41.5%;
+    top: 42%;
   }
 }
 @media screen and (max-width: 1950px) {
