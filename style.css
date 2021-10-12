@@ -99,7 +99,7 @@ body {
 .item-tag {
   font-weight: 600;
 }
-img {
+.character-img {
   height: 35vh;
   margin-bottom: 8vh;
 }
@@ -115,36 +115,132 @@ img {
   left: 15%;
   top: 15%;
 }
-.logo-img {
-  height: 7vh;
+.logo-bg {
+  height: 8vh;
   position: absolute;
-  top: 4%;
   right: 4%;
-  background-color: rgb(53, 163, 51);
-  border: rgb(53, 163, 51) solid 18px;
-  border-radius: 100px;
+}
+.logo-bg-1 {
+  top: 4%;
+}
+.logo-bg-2 {
+  top: 20%;
+}
+.logo-img {
+  height: 4vh;
+  position: absolute;
+  top: 7.7%;
+  right: 7.7%;
 }
 .item-img {
-  top: 20%;
+  top: 24%;
 }
 @media screen and (max-width: 2400px) {
   #subheader {
     position: absolute;
-    color: red;
+    color: rgb(255, 255, 255);
     top: 41.5%;
   }
 }
 @media screen and (max-width: 1950px) {
   #subheader {
     position: absolute;
-    color: blue;
+    color: rgb(255, 255, 255);
     top: 41%;
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1700px) {
+  .name-tag {
+    font-size: 4rem;
+  }
+  .desc {
+    font-size: 1.8rem;
+  }
+  .item-tag {
+    font-weight: 600;
+  }
+  .character-img {
+    height: 30vh;
+    margin-bottom: 8vh;
+  }
   .box {
-    width: 40%;
+    position: relative;
+  }
+  #box-jeremiah-img {
+    height: 26vh;
+    right: 50%;
+    top: 13%;
+    transform: translateX(50%);
+    position: absolute;
+  }
+  #box-dora-img {
+    height: 26vh;
+  }
+  #box-blathers-img {
+    height: 28vh;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .box {
+    width: 35%;
     height: 50%;
+  }
+  #box-blathers-img {
+    position: static;
+  }
+  #box-jeremiah-img {
+    right: 50%;
+    left: 13%;
+    transform: translateX(-50%);
+    position: static;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #subheader {
+    top: 42%;
+    bottom: 53%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .name-tag {
+    font-size: 2.5rem;
+  }
+  .desc {
+    font-size: 1.5rem;
+  }
+  .item-tag {
+    font-weight: 600;
+  }
+  .character-img {
+    height: 38vh;
+    margin-bottom: 8vh;
+  }
+  .box {
+    position: relative;
+    height: 70vh;
+  }
+  #box-jeremiah-img {
+    height: 32vh;
+    transform: translateY(90%);
+    transform: translateX(7%);
+    position: static;
+  }
+  #box-dora-img {
+    height: 34vh;
+  }
+  #box-blathers-img {
+    height: 37vh;
+    position: static;
+    transform: translateY(7.4%);
+  }
+  .logo-img {
+    top: 7%;
+  }
+  .item-img {
+    top: 23.5%;
   }
 }
 @media screen and (max-width: 970px) {
