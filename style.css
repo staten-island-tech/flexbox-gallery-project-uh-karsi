@@ -10,43 +10,12 @@ body {
   font-family: "Balsamiq Sans", cursive;
 }
 .header {
-  margin-top: 1%;
-  margin-bottom: 7vh;
-  text-align: center;
-  font-family: "finkheavyregular", serif;
-  height: 47vh;
-}
-.header img {
-  position: relative;
-  height: 47vh;
-}
-#header-main {
-  font-size: 14.2vh;
-  padding: 7vh;
-  color: rgba(230, 185, 68, 255);
-  text-shadow: 0.4rem 0.5rem rgba(77, 61, 35, 255);
-  position: absolute;
-  bottom: 60%;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
-#bottom-header-main {
-  display: block;
-  width: 100vw;
-}
-#subheader {
-  font-family: "Enriqueta", serif;
-  font-size: 3.5vh;
-  color: rgb(255, 255, 255);
-  text-shadow: -0.2rem -0.2rem rgb(46, 46, 46);
-  position: absolute;
-  top: 42%;
-  bottom: 53%;
-  left: 50%;
-  transform: translateX(-50%);
+#header-image {
+  margin-top: 1%;
+  height: 55vh;
 }
 .gallery {
   display: flex;
@@ -110,44 +79,19 @@ body {
   height: 30vh;
 }
 #box-blathers-img {
-  height: 33vh;
-  position: absolute;
-  left: 15%;
-  top: 15%;
-}
-.logo-bg {
-  height: 8vh;
-  position: absolute;
-  right: 4%;
-}
-.logo-bg-1 {
-  top: 4%;
-}
-.logo-bg-2 {
-  top: 20%;
+  height: 34vh;
+  left: 50%;
+  margin-top: 2%;
+  margin-bottom: 0%;
 }
 .logo-img {
-  height: 4vh;
+  height: 8vh;
   position: absolute;
-  top: 7.7%;
-  right: 7.7%;
+  top: 4%;
+  right: 4%;
 }
 .item-img {
   top: 24%;
-}
-@media screen and (max-width: 2400px) {
-  #subheader {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    top: 41.5%;
-  }
-}
-@media screen and (max-width: 1950px) {
-  #subheader {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    top: 41%;
-  }
 }
 @media screen and (max-width: 1700px) {
   .name-tag {
@@ -168,55 +112,24 @@ body {
   }
   #box-jeremiah-img {
     height: 26vh;
-    right: 50%;
-    top: 13%;
-    transform: translateX(50%);
-    position: absolute;
   }
   #box-dora-img {
     height: 26vh;
   }
   #box-blathers-img {
     height: 28vh;
-    position: absolute;
-    left: 15%;
-    top: 15%;
   }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
   .box {
     width: 35%;
     height: 50%;
   }
-  #box-blathers-img {
-    position: static;
-  }
-  #box-jeremiah-img {
-    right: 50%;
-    left: 13%;
-    transform: translateX(-50%);
-    position: static;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #subheader {
-    top: 42%;
-    bottom: 53%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
   .name-tag {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
   .desc {
-    font-size: 1.5rem;
-  }
-  .item-tag {
-    font-weight: 600;
-  }
-  .character-img {
-    height: 38vh;
-    margin-bottom: 8vh;
+    font-size: 2.5rem;
   }
   .box {
     position: relative;
@@ -224,17 +137,14 @@ body {
   }
   #box-jeremiah-img {
     height: 32vh;
-    transform: translateY(90%);
-    transform: translateX(7%);
-    position: static;
+    top: 40%;
   }
   #box-dora-img {
     height: 34vh;
   }
   #box-blathers-img {
     height: 37vh;
-    position: static;
-    transform: translateY(7.4%);
+    margin-top: 15%;
   }
   .logo-img {
     top: 7%;
