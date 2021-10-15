@@ -8,6 +8,9 @@ body,
 }
 body {
   font-family: "Balsamiq Sans", cursive;
+  background-image: url(images/plaid-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header {
   display: flex;
@@ -59,16 +62,16 @@ body {
   display: flex;
   flex-direction: column;
 }
-.name-tag {
+.box-text-nametag {
   font-size: 4rem;
 }
-.desc {
+.box-text-desc {
   font-size: 2.3rem;
 }
 .item-tag {
   font-weight: 600;
 }
-.character-img {
+.box-character {
   height: 35vh;
   margin-bottom: 8vh;
 }
@@ -83,13 +86,13 @@ body {
   left: 50%;
   margin-top: 2%;
 }
-.logo-img {
+.box-logo {
   height: 8vh;
   position: absolute;
   top: 4%;
   right: 4%;
 }
-.item-img {
+.box-item {
   top: 24%;
 }
 @media screen and (max-width: 1400px) {
@@ -108,11 +111,11 @@ body {
     height: 37vh;
     margin-top: 4%;
   }
-  .logo-img {
+  .box-logo {
     top: 7%;
     height: 11vh;
   }
-  .item-img {
+  .box-item {
     top: 27%;
   }
 }
@@ -122,17 +125,17 @@ body {
     height: 50%;
     margin: 5vh 2vw;
   }
-  .logo-img {
+  .box-logo {
     height: 20%;
     top: 4%;
   }
-  .item-img {
+  .box-item {
     top: 24%;
   }
-  .name-tag {
+  .box-text-nametag {
     font-size: 3rem;
   }
-  .desc {
+  .box-text-desc {
     font-size: 2rem;
   }
 }
@@ -145,13 +148,13 @@ body {
     height: 55vh;
     margin: 5vh 2vw;
   }
-  .name-tag {
+  .box-text-nametag {
     font-size: 2.5rem;
   }
-  .desc {
+  .box-text-desc {
     font-size: 1.2rem;
   }
-  .character-img {
+  .box-character {
     height: 30vh;
   }
   #box-dora-img {
@@ -165,11 +168,11 @@ body {
     height: 27vh;
     margin-top: 7%;
   }
-  .logo-img {
+  .box-logo {
     height: 15%;
     top: 5%;
   }
-  .item-img {
+  .box-item {
     top: 23%;
   }
 }
