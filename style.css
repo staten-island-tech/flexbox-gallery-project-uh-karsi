@@ -60,10 +60,10 @@ body {
   flex-direction: column;
 }
 .name-tag {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .desc {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .item-tag {
   font-weight: 600;
@@ -92,35 +92,21 @@ body {
 .item-img {
   top: 24%;
 }
-@media screen and (max-width: 1700px) {
-  .name-tag {
-    font-size: 3.8rem;
-  }
-  .desc {
-    font-size: 1.6rem;
-  }
-}
 @media screen and (max-width: 1400px) {
   .box {
     width: 35%;
     height: 70vh;
   }
-  .name-tag {
-    font-size: 4rem;
-  }
-  .desc {
-    font-size: 2.5rem;
-  }
   #box-jeremiah-img {
     height: 32vh;
-    top: 40%;
+    margin-top: 8%;
   }
   #box-dora-img {
     height: 34vh;
   }
   #box-blathers-img {
     height: 37vh;
-    margin-top: 15%;
+    margin-top: 4%;
   }
   .logo-img {
     top: 7%;
@@ -130,36 +116,6 @@ body {
     top: 27%;
   }
 }
-/*.character-img {
-  height: 38vh;
-  margin-bottom: 8vh;
-}
-#box-jeremiah-img {
-  height: 32vh;
-  transform: translateY(90%);
-  transform: translateX(7%);
-  position: static;
-}
-#box-dora-img {
-  height: 34vh;
-}
-#box-blathers-img {
-  height: 37vh;
-  position: static;
-  transform: translateY(7.4%);
-}
-.logo-img {
-  top: 5%;
-}
-.item-img {
-  top: 25%;
-}
-.name-tag {
-  font-size: 3rem;
-}
-.desc {
-  font-size: 1.8rem;
-}*/
 @media screen and (max-width: 1100px) {
   .box {
     width: 60%;
@@ -167,20 +123,20 @@ body {
     margin: 5vh 2vw;
   }
   .logo-img {
-    height: 16%;
+    height: 20%;
     top: 4%;
   }
   .item-img {
     top: 24%;
   }
   .name-tag {
-    font-size: 5rem;
-  }
-  .desc {
     font-size: 3rem;
   }
+  .desc {
+    font-size: 2rem;
+  }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   #header-image {
     height: 35vh;
   }
@@ -190,12 +146,30 @@ body {
     margin: 5vh 2vw;
   }
   .name-tag {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .desc {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .character-img {
+    height: 30vh;
+  }
+  #box-dora-img {
+    height: 28vh;
   }
   #box-blathers-img {
+    margin-top: 2%;
     height: 30vh;
+  }
+  #box-jeremiah-img {
+    height: 27vh;
+    margin-top: 7%;
+  }
+  .logo-img {
+    height: 15%;
+    top: 5%;
+  }
+  .item-img {
+    top: 23%;
   }
 }
