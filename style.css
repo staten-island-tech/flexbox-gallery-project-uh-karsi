@@ -6,12 +6,24 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Balsamiq Sans", cursive;
   background-image: url(images/main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5%;
+  animation: fadeIn 1.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 .header {
   display: flex;
