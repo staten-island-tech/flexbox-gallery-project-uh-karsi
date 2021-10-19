@@ -136,7 +136,7 @@ body {
   border-width: 3.5rem;
   border-style: solid;
   border-image: url(images/ac-bg.png) 25% round;
-  border-radius: 2rem;
+  border-radius: 1.7rem;
   background-color: rgb(211, 218, 178);
   position: relative;
   margin: 5vh auto;
