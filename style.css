@@ -40,12 +40,13 @@ body {
   border-radius: 2.5rem;
   z-index: 100;
   transition: all 0.3s;
+  display: inline-block;
 }
 #top-button:hover {
-  transform: scale(9);
+  transform: scale(1.2);
   background-color: rgba(0, 0, 0, 0.8);
   outline: solid 0.3rem rgb(255, 255, 255);
-  text-shadow: 0 0 1rem 0.6rem rgb(255, 255, 255);
+  text-shadow: 0 0 0.7rem rgb(255, 255, 255);
   box-shadow: 0 0 1rem 0.6rem rgb(255, 255, 255);
 }
 .header {
